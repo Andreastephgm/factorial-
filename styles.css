@@ -1,0 +1,66 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGlmcm5taDlkNTl6eTI0ZGdsMG9pc3pqNTg5a2R0Njc4cGp1YmI1byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9iv4ErObYQvrW/giphy.gif");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding: 40px;
+    min-height: 100vh;
+  }
+
+  h1{
+    color: greenyellow;
+    font-size: 50px;
+    font-family: 'Audiowide';
+  }
+
+  .modal {
+    background-color: black;
+    margin-top: 50px;
+    padding: 25px 30px;
+    border-radius: 15px;
+    width: 320px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    text-align: center;
+    border: 2px solid yellowgreen;
+  }
+
+  h2 {
+    color: yellowgreen;
+    margin-bottom: 15px;
+    font-family: 'Turret Road';
+  }
+
+  input {
+    width: 85%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid yellowgreen;
+    margin-top: 10px;
+  }
+
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: yellowgreen;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  button:hover {
+    background-color: #FF8C42;
+  }
+
+  #resultado {
+    margin-top: 30px;
+    color: yellowgreen;
+    font-family : 'Audiowide';
+    font-size: 30px;
+  }
